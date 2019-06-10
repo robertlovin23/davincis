@@ -1,0 +1,79 @@
+[
+   {
+    "type": "Appetizers":{
+			[
+				{
+				"item":"Fried Mozzarella Cheese",
+				"price":"$5.95",
+				"description":"5 sticks served with marinara sauce"
+				},
+				{
+				"item":"Meatball Casserole",
+				"price":"$8.95",
+				"description":"Baked in marinara and melted 					mozzarella cheese"
+				},
+				{
+				"item":"Fried Calamari",
+				"price":"$8.95",
+				"description":"Fried to a golden brown and served 				with marinara sauce"
+				},
+				{
+				"item":"Shrimp Napeoloene",
+				"price":"$8.95",
+				"description":"Jumbo Shrimp sauced in butter, brandy 					wine, garlic, fresh basil, shallots"
+				},
+				{
+				"item":"Sliced Italian Sausage",
+				"price":"$5.95",
+				"description":"Sauteed in olive oil, garlic, 					shallots, sherry wine, and marinara"
+				},
+				{
+				"item":"Mussels Marinara",
+				"price":"$7.95",
+				"description":"Sauteed mussels in olive oil, garlic, 					shallots, sherry wine, and marinara"
+				}
+			]
+			}
+   "type": "Homemade Baked Pastas":{
+			 [
+				{
+				"item": "Baked Ziti",
+				"price": "$8.95",
+				"description":"Penne pasta ricotta cheese and 					marinara sauce topped with mozzarella cheese"
+				},
+				{
+				"item":"Manicotti",
+				"price":"$8.95",
+				"description": "Pasta stuffed and rolled with ricotta 					cheese, stuffed with marinara and mozzarella cheese"
+				},
+				{
+				"item":"Cheese or Meat Ravioli",
+				"price":"$8.95",
+				"description":"Stuffed ravioli pasta, topped with marinara  and mozzarella cheese, served with a small side of spaghetti marinara"
+				},
+			]
+			}
+   "type": "Entrees":{
+			 [
+				{
+				"item":"Tortollini Alla Panna",
+				"price":"$10.95",
+				"description":"Cheese tortellini sauteed in cream sauce and a touch of marinara"
+				},
+				{
+				"item": "Tortollini Pesto",
+				"price": "10.95",
+				"description": "Cheese tortellini sauteed in a pesto sauce"
+				},
+				{
+				"item": "Spaghetti 'The Works'",
+				"price":"11.95",
+				"description":"Spaghetti with meatballs, meat sauce, mushrooms, and sausage"
+				}
+			]
+		}
+	}
+]
+	
+
+				

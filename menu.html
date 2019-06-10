@@ -1,0 +1,90 @@
+<DOCTYPE!>
+<html>
+    <head>
+        <link href = "css/davincis.css" rel="stylesheet" type = "text/css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <link href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type = "text/css" rel="stylesheet">
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>DaVinci's | Menu</title>
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <div class="navbar-fixed">
+        <nav style="height:75px;">
+            <div class = "nav-wrapper">
+                    <a href="index.html" class="brand-logo">Da Vinci's Italian</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <div class="col s6 bread-line">
+                            <a href="index.html" class="breadcrumb" id="breadcrumb">Home</a>
+                            <a href="menu.html" class="breadcrumb" id="breadcrumb">Menu</a>
+                    </div>
+                    <ul class = "hide-on-med-and-down" id ="nav-items">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li class="active"><a href="menu.html">Menu</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                <div class = "search right">
+                    <label class="label-icon left" for="search" style = "color:white;"><i class="material-icons">search</i></label>
+                    <input id="search right" type="search" style = "width: 75%; height: 3.1rem;" required>
+                </div>
+            </div>   
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li  class = "active"><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+        <div id="section1" class="container-fluid left-align menu-intro" > 
+                <div class = "intro-text">
+                    <h1 style = "color: white; font-weight: 500;">Menu</h1>
+                </div>
+        </div>
+        <div class = "container">
+            <table class = "menu-table" id="menu-data">
+            </table>
+        </div>
+        <div class = "contact-section left-align row" >
+                <div class = "col l10 s12 contact-row">
+                    <h3 style = "font-weight: 500;">Let us know how were doing! Ciao!</h3>
+                    <a class = "btn btn-primary contact-button" href = "contact.html">Get In Touch</a> 
+                </div>
+            </div>
+    
+            <footer class="page-footer">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col l6 s12">
+                          <h5 class="white-text">Da Vinci's Italian</h5>
+                          <p class="grey-text text-lighten-4">Explore our page to learn more about what we do.</p>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                          <h5 class="white-text">Links</h5>
+                          <ul>
+                              <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                              <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                              <li><a class="grey-text text-lighten-3" href="menu.html">Menu</a></li>
+                              <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="footer-copyright">
+                      <div class="container center-align">
+                        2019 Copyright
+                      </div>
+                    </div>
+                  </footer>
+                      
+        <script src = "js/main.js"></script>
+        <script>
+            $(document).ready(function(){
+              $('.sidenav').sidenav();
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+#nav-items{
+    padding-left:30px;
+    padding-top:2.5px;
+    display: inline-block;
+}
+.search-text{
+    padding: 5px 10px 0px 0px;
+}
+.label-icon{
+    padding-top:5px;
+}
+.section-intro{
+    background-image: url(images/bowl-delicious-dinner-1268550.jpg);
+    padding:250px 0px 250px;
+}
+#section-02{
+    background-image: url(images/bowl-cheese.jpg);
+    padding: 250px 0px 250px 0px;
+}
+.placeholder-image{
+    background-image: url(images/tomatoes.jpg)
+}
+.menu-intro{
+    background-image: url(images/pizza.jpg);
+    padding: 150px 0px 150px 0px;
+}
+.about-intro{
+    background-image: url(images/about.jpg);
+    padding: 150px 0px 150px 0px;
+}
+.contact-intro{
+    background-image: url(images/pasta-bowl.jpg);
+    padding: 150px 0px 150px 0px;
+}
+.placeholder-image{
+    padding: 150px 0px 150px 0px;
+}
+.review-section, .contact-section, .home-about{
+    margin-bottom: 0px !important;
+}
+.intro-text{
+    margin-left: 100px;
+    width:350px;
+}
+.home-about, .contact-text{
+    margin: 0 auto;
+    background-color: #CDCDCD;
+}
+.inner-contact-text, .inner-about-text{
+    margin: 0 auto;
+    float: none !important;
+    padding-top:50px !important;
+    padding-bottom:50px !important;
+}
+.about-text{
+    max-width:800px;
+    margin: 0 auto;
+    padding: 50px 0px 50px 0px;
+}
+.section-intro, #section-02, .menu-intro, .about-intro, .contact-intro, .placeholder-image{
+	background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-section{
+    padding: 100px 50px 100px 0px;
+    background-color: #CDCDCD;
+    margin: 0 auto;
+}
+.bread-line{
+    display:inline-block;
+    width:200px;
+}
+#breadcrumb{
+    font-size:15px;
+    padding-left: 2.5px;
+
+}
+.navbar{
+    height: 75px;
+}
+#map {
+    height:400px;
+    max-width:600px;
+    display: block;
+    padding: 50px;
+    margin: 0 auto;
+
+}
+.contact-row{
+    padding-left:100px;
+}
+#comment{
+    height:100px;
+}
+#comment-form{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom:20px;
+}
+.send-button{
+    margin-top: 25px;
+
+}
+@media (max-width: 1000px){
+    .bread-line{
+        visibility: hidden;
+    }
+    .search{
+        visibility: hidden;
+    }
+    .brand-logo{
+        float:left;
+        width: 500px;
+        left: 0% !important;
+        padding-left: 250px !important;
+    }
+    .sidenav-trigger{
+        float:right !important;
+    }
+    .navbar{
+        height: 50px;
+    }
+}
+@media (max-width: 450px){
+    .intro-text{
+        margin-left: 10px;
+    }
+    .contact-row{
+        padding-left:40px;
+    }
+    .menu-table{
+        margin-left: -20px;
+    }
+
+}
+@media (max-width: 340px){
+    .intro-text{
+        margin-left: 0px;
+        width: 100%;
+    }
+}
